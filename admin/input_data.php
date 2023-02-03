@@ -61,12 +61,11 @@
                                             <input type="text" class="form-control form-control-lg " min-lenght="8" max-lenght="11" name="no_tlp" placeholder="Nomor telepon" maxlength="13" minlength="12" aria-label="Nomor telepon">
                                         </div>
                                         <div class="mb-3">
-                                            <input type="text" class="form-control form-control-lg " name="jumlah" placeholder="Jumlah Buku" aria-label="Nomor telepon">
+                                            <input type="number" class="form-control form-control-lg " name="jumlah" required placeholder="Jumlah Buku" aria-label="Jumlah Buku">
                                         </div>
                                         <div class="mb-3">
                                             <select class="form-select text-uppercase" <?= $d['pinjaman']; ?> name="pinjaman" aria-label="Default select example">
-                                                <option value="active">avtive</option>
-                                                <option value="non">non active</option>
+                                                <option value="active">ACTIVE</option>
                                             </select>
                                         </div>
                                         <div class="text-center">

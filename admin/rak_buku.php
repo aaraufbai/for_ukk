@@ -143,7 +143,7 @@
 
                     if (isset($_GET['s'])) {
                       $name = $_GET['s'];
-                      $query = mysqli_query($koneksi, "SELECT * FROM t_buku where nm_buku like '%" . $name . "%' or lorong like '%" . $name . "%'");
+                      $query = mysqli_query($koneksi, "SELECT * FROM t_buku where nm_buku like '%" . $name . "%' orx`  lorong like '%" . $name . "%'");
                     } else if (isset($_GET['s'])) {
                       $name = $_GET['s'];
                       $query = mysqli_query($koneksi, "SELECT * FROM t_buku where nm_buku like '%" . $name . "%'");
